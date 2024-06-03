@@ -1,0 +1,197 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url("fonts/Norse-Bold.otf") format("opentype");
+}
+
+:root{
+--btncolor:#596D48;
+--bordercolor:#E5E7EB;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+p{
+    font-family: "CustomFont";
+    font-size: 4rem;
+}
+.entirehero{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    
+}
+
+.left-hero{
+    flex: 1 1 45%;
+    align-self: center;
+    min-height: 100%;
+    display:flex;
+    flex-direction: column;
+background-image: url(./photo/halie-west-25xggax4bSA-unsplash.jpg);
+background-size: cover;
+justify-content: space-between;
+
+}
+
+.banner{
+    display: flex;
+    margin-top: 14rem;
+    flex-direction: row;
+    height: 200px;
+    width: auto;
+    background-color: rgba(0,0,0,0.35);
+    justify-content: center;
+}
+
+.herotxt{
+    width: fit-content;
+    font-size: 7rem;
+    color: white;
+}
+img{
+    height: 100%;
+box-sizing: border-box;
+max-height: 100%;
+width: auto;
+}
+.logotxt{
+    align-self: center;
+}
+
+.credit{
+    align-self: center;
+    margin-bottom: 2rem;
+
+h4{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+}}
+.right-hero{
+    flex: 1 1 55%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.6rem;
+}
+.right-hero > *{
+flex: 1 1 33%;
+padding-left: 3rem;
+
+}
+
+.formgroup{
+    display: flex;
+    flex-direction: row;
+    gap:6rem;
+    flex: 1 1 80%;
+
+.right-form{
+    display: flex;
+    flex-direction: column;
+    gap:0.6rem;
+}
+}
+.hero-righttxt,.cta{
+    background-color: #EAEDED;
+}
+.sign-up{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cta > h3{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    margin-top: 1.6rem;
+    font-weight: 500;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    margin-top: 1.6rem;
+}
+h2{
+    margin-top: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:500;
+    flex: 1 1 20%;
+    align-content: center;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    color: #353935 ;
+    margin-top: 1rem;
+}
+input{
+height: 2.4rem;
+width: 100%;
+border-radius: 6px;
+font-size: 1.2rem;
+outline-color: gray;
+outline-width: thin;
+outline-style: solid;
+border-style: none;
+padding-left: 0.2rem;
+}
+input:focus{
+    border-color:transparent;
+    outline-color: blue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+input[type="password"]:invalid{
+outline: red;
+outline-width: thin;
+outline-style: solid;
+border-style: none;
+}
+.left-form{
+    display: flex;
+    flex-direction: column;
+}
+.left-form,.right-form{
+    min-width: 30vh;
+}
+
+button{
+
+    background-color: #596D48;
+    padding: 1rem 3rem;
+    color: #ffff;
+    border-radius: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+
+}
+a{
+    text-decoration: none;
+    color: #596D48;
+   
+}
+.cta{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.40);
+}
+.hero-righttxt{
+    align-content: center;
+}
